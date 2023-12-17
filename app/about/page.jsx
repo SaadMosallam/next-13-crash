@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "About App directory",
+  description: "Details about app directory",
+};
+
 const AboutPage = () => {
   return (
     <div>
