@@ -1,5 +1,3 @@
-import { Poppins } from "next/font/google";
-import "../globals.css";
 import Link from "next/link";
 
 export const metadata = {

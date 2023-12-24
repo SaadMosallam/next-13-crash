@@ -1,5 +1,4 @@
 import React from "react";
-import "./globals.css";
 import myImg from "../public/openYourEyesMorty.png";
 import Image from "next/image";
 
