@@ -159,7 +159,7 @@ body {
 
 .repo-details {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 1rem;
   color: #999;
 }
@@ -214,6 +214,8 @@ body {
 .card .card-stats {
   display: flex;
   margin: 1rem 0;
+  justify-content: space-around;
+  color: #999;
 }
 
 .card .card-stat {
@@ -245,6 +247,23 @@ body {
 
 .home-article p {
   margin: 0;
+}
+
+.directory-item {
+  list-style: none;
+}
+
+.directory-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 8px;
+
+  color: black;
+}
+
+.directory-item a:hover {
+  text-decoration: underline;
 }
 
 @keyframes spin {

@@ -7,10 +7,6 @@ import React, { Suspense } from "react";
 const RepoPage = ({ params: { name } }) => {
   return (
     <div className="card">
-      <Link className="btn btn-back" href="/code/repos">
-        Back to Repositories
-      </Link>
-
       <Repo name={name} />
       <Suspense
         fallback={
@@ -21,6 +17,13 @@ const RepoPage = ({ params: { name } }) => {
       >
         <RepoDirs name={name} />
       </Suspense>
+      <Link
+        style={{ margin: "8px 0" }}
+        className="btn btn-back"
+        href="/code/repos"
+      >
+        Back to Repositories
+      </Link>
     </div>
   );
 };
