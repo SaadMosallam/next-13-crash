@@ -49,24 +49,24 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #0047ab;
   color: #fff;
-  padding: 1rem;
+  padding: 0.5rem;
   border-bottom: 5px solid #fff;
 }
 
 .logo {
   text-align: center;
-  margin-bottom: 0.5rem;
 }
 
 .logo a {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 0.5rem;
   color: #fff;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .links a {
@@ -234,19 +234,6 @@ body {
 
 .courses .card h2 {
   margin-bottom: 0;
-}
-
-.home-article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5vh 10vw;
-  gap: 12px;
-}
-
-.home-article p {
-  margin: 0;
 }
 
 .directory-item {
