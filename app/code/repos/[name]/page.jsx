@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 
 const RepoPage = ({ params }) => {
-  console.log(params);
   return (
     <div className="card">
       <Link className="btn btn-back" href="/code/repos">
